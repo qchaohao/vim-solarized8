@@ -39,11 +39,11 @@ Terminal                         fg                back
 ToolbarButton                    base1             base02            bold
 ToolbarLine                      none              base02
 
-Normal       /256/16+termtrans 1 base0             none
-CursorLine   /256/16+termtrans 1 none              none              underline
-Terminal     /256/16+termtrans 1 fg                none
-ToolbarButton/256/16+termtrans 1 base1             none              bold
-ToolbarLine  /256/16+termtrans 1 none              none
+Normal       /gui/256/16+termtrans 1 base0             none
+CursorLine   /gui/256/16+termtrans 1 none              none              underline
+Terminal     /gui/256/16+termtrans 1 fg                none
+ToolbarButton/gui/256/16+termtrans 1 base1             none              bold
+ToolbarLine  /gui/256/16+termtrans 1 none              none
 
 NonText                          base00            none              bold
 /gui/256/16/8+visibility "high"  orange            none              bold
@@ -214,11 +214,11 @@ Terminal                         fg                back
 ToolbarButton                    base1             base02            bold
 ToolbarLine                      none              base02
 
-Normal       /256/16+termtrans 1 base0             none
-CursorLine   /256/16+termtrans 1 none              none              underline
-Terminal     /256/16+termtrans 1 fg                none
-ToolbarButton/256/16+termtrans 1 base1             none              bold
-ToolbarLine  /256/16+termtrans 1 none              none
+Normal       /gui/256/16+termtrans 1 base0             none
+CursorLine   /gui/256/16+termtrans 1 none              none              underline
+Terminal     /gui/256/16+termtrans 1 fg                none
+ToolbarButton/gui/256/16+termtrans 1 base1             none              bold
+ToolbarLine  /gui/256/16+termtrans 1 none              none
 
 CursorLineNr                     base0             none              bold
 /gui/256/16/8+visibility "high"  red               none              bold

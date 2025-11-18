@@ -40,11 +40,11 @@ Folded                           base0             base02  s=base03  bold
 LineNr                           base01            base02
 Terminal                         fg                back
 
-Normal       /256/16+termtrans 1 base1             none
-FoldColumn   /256/16+termtrans 1 fg                none
-Folded       /256/16+termtrans 1 fg                none              bold
-LineNr       /256/16+termtrans 1 base01            none
-Terminal     /256/16+termtrans 1 fg                none
+Normal       /gui/256/16+termtrans 1 base1             none
+FoldColumn   /gui/256/16+termtrans 1 fg                none
+Folded       /gui/256/16+termtrans 1 fg                none              bold
+LineNr       /gui/256/16+termtrans 1 base01            none
+Terminal     /gui/256/16+termtrans 1 fg                none
 
 CursorLineNr                     base0             base02            bold
 /gui/256/16/8+transvis   2       orange            base02            bold
@@ -248,11 +248,11 @@ Folded                           base0             base02 s=base03   bold
 LineNr                           base01            base02
 Terminal                         fg                back
 
-Normal       /256/16+termtrans 1 base1             none
-FoldColumn   /256/16+termtrans 1 base0             none
-Folded       /256/16+termtrans 1 base0             none             bold
-LineNr       /256/16+termtrans 1 base01            none
-Terminal     /256/16+termtrans 1 fg                none
+Normal       /gui/256/16+termtrans 1 base1             none
+FoldColumn   /gui/256/16+termtrans 1 base0             none
+Folded       /gui/256/16+termtrans 1 base0             none             bold
+LineNr       /gui/256/16+termtrans 1 base01            none
+Terminal     /gui/256/16+termtrans 1 fg                none
 ; }}}
 ; Visibility and cursor style (light) {{{
 MatchParen                       red               base02            bold,underline

@@ -44,12 +44,12 @@ Terminal                         fg                back
 ToolbarButton                    base1             base02            bold
 ToolbarLine                      none              base02
 
-Normal       /256/16+termtrans 1 base1             none
-FoldColumn   /256/16+termtrans 1 fg                none
-Folded       /256/16+termtrans 1 fg                none              bold
-Terminal     /256/16+termtrans 1 fg                none
-ToolbarButton/256/16+termtrans 1 base1             none              bold
-ToolbarLine  /256/16+termtrans 1 none              none
+Normal       /gui/256/16+termtrans 1 base1             none
+FoldColumn   /gui/256/16+termtrans 1 fg                none
+Folded       /gui/256/16+termtrans 1 fg                none              bold
+Terminal     /gui/256/16+termtrans 1 fg                none
+ToolbarButton/gui/256/16+termtrans 1 base1             none              bold
+ToolbarLine  /gui/256/16+termtrans 1 none              none
 
 CursorLineNr                     base0             base02            bold  ; no transparency, normal visibility
 /gui/256/16/8+transvis   2       orange            base02            bold  ; no transparency, high visibility
@@ -241,12 +241,12 @@ Terminal                         fg                back
 ToolbarButton                    base1             base02            bold
 ToolbarLine                      none              base02
 
-Normal       /256/16+termtrans 1 base1             none
-FoldColumn   /256/16+termtrans 1 base0             none
-Folded       /256/16+termtrans 1 base0             none              bold
-Terminal     /256/16+termtrans 1 fg                none
-ToolbarButton/256/16+termtrans 1 base1             none              bold
-ToolbarLine  /256/16+termtrans 1 none              none
+Normal       /gui/256/16+termtrans 1 base1             none
+FoldColumn   /gui/256/16+termtrans 1 base0             none
+Folded       /gui/256/16+termtrans 1 base0             none              bold
+Terminal     /gui/256/16+termtrans 1 fg                none
+ToolbarButton/gui/256/16+termtrans 1 base1             none              bold
+ToolbarLine  /gui/256/16+termtrans 1 none              none
 
 MatchParen                       red               base02            bold,underline
 /gui/256/16/8 +visibility "high" base03            base00            bold
